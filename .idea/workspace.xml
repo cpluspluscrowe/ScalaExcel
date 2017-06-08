@@ -4,7 +4,8 @@
     <list default="true" id="68a2125b-22eb-4961-887f-b77145b18af0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workbook.xlsx" afterPath="$PROJECT_DIR$/workbook.xlsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/CellManipulation.scala" afterPath="$PROJECT_DIR$/src/main/scala/CellManipulation.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/ScalaInExcel.scala" afterPath="$PROJECT_DIR$/src/main/scala/ScalaInExcel.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/Workbook.scala" afterPath="$PROJECT_DIR$/src/main/scala/Workbook.scala" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,17 +29,17 @@
       <file leaf-file-name="ScalaInExcel.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaInExcel.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="399">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="23" selection-end-column="16" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
-                <element signature="e#44#75#0" expanded="true" />
+                <element signature="e#44#100#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CellManipulation.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CellManipulation.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/CellManipulation.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="266">
@@ -50,13 +51,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Workbook.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Workbook.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Workbook.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="252">
+              <caret line="12" column="63" lean-forward="true" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
               <folding>
-                <element signature="e#0#31#0" expanded="true" />
+                <element signature="e#0#56#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -117,10 +118,10 @@
         <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/src/main/scala/HelloWorld.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Dates.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/Workbook.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Sheets.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/ScalaInExcel.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/CellManipulation.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ScalaInExcel.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/Workbook.scala" />
       </list>
     </option>
   </component>
@@ -729,7 +730,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1496925440542</updated>
-      <workItem from="1496925443082" duration="4483000" />
+      <workItem from="1496925443082" duration="4794000" />
     </task>
     <task id="LOCAL-00001" summary="Added method: Manipulates sheet cells">
       <created>1496928538933</created>
@@ -745,11 +746,18 @@
       <option name="project" value="LOCAL" />
       <updated>1496929290520</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added another cell manipulation function.">
+      <created>1496929961567</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1496929961567</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4483000" />
+    <option name="totallyTimeSpent" value="4794000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4809" y="-9" width="2418" height="1318" extended-state="6" />
@@ -796,7 +804,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added method: Manipulates sheet cells" />
     <MESSAGE value="Separating functionality into general objects" />
-    <option name="LAST_COMMIT_MESSAGE" value="Separating functionality into general objects" />
+    <MESSAGE value="Added another cell manipulation function." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added another cell manipulation function." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -825,16 +834,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Workbook.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Sheets.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -845,23 +844,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaInExcel.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#44#75#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/CellManipulation.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="24" column="3" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaInExcel.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="23" selection-end-column="16" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#44#100#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Workbook.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="63" lean-forward="true" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
           </folding>
         </state>
       </provider>
