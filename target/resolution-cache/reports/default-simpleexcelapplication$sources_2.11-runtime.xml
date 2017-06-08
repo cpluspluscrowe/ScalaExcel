@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="simpleexcelapplication$sources_2.11"
+		revision="1.0.3"
+		conf="runtime"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20170608075709"/>
+	<dependencies>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.11.11" status="release" pubdate="20170413145031" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.11/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="5">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2688" time="0" location="C:\Users\CCrowe\.ivy2\cache\org.scala-lang\scala-library\ivy-2.11.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.11/scala-library-2.11.11.pom"/>
+				<caller organisation="default" name="simpleexcelapplication$sources_2.11" conf="compile, runtime" rev="2.11.11" rev-constraint-default="2.11.11" rev-constraint-dynamic="2.11.11" callerrev="1.0.3" extra-info.apiURL="http://www.scala-lang.org/api/2.11.11/"/>
+				<artifacts>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="911961" time="330" location="C:\Users\CCrowe\.ivy2\cache\org.scala-lang\scala-library\srcs\scala-library-2.11.11-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.11/scala-library-2.11.11-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.norbitltd" name="spoiwo">
+			<revision name="1.0.3" status="release" pubdate="20140409020525" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://norbert-radyk.github.io/spoiwo/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="4">
+				<license name="MIT-License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="4194" time="0" location="C:\Users\CCrowe\.ivy2\cache\com.norbitltd\spoiwo\ivy-1.0.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/norbitltd/spoiwo/1.0.3/spoiwo-1.0.3.pom"/>
+				<caller organisation="default" name="simpleexcelapplication$sources_2.11" conf="compile, runtime" rev="1.0.3" rev-constraint-default="1.0.3" rev-constraint-dynamic="1.0.3" callerrev="1.0.3"/>
+				<artifacts>
+					<artifact name="spoiwo" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="33523" time="0" location="C:\Users\CCrowe\.ivy2\cache\com.norbitltd\spoiwo\srcs\spoiwo-1.0.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/norbitltd/spoiwo/1.0.3/spoiwo-1.0.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.joda" name="joda-convert">
+			<revision name="1.6" status="release" pubdate="20140127123743" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.joda.org/joda-convert/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6316" time="0" location="C:\Users\CCrowe\.ivy2\cache\org.joda\joda-convert\ivy-1.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/joda/joda-convert/1.6/joda-convert-1.6.pom"/>
+				<caller organisation="default" name="simpleexcelapplication$sources_2.11" conf="compile, runtime" rev="1.6" rev-constraint-default="1.6" rev-constraint-dynamic="1.6" callerrev="1.0.3"/>
+				<artifacts>
+					<artifact name="joda-convert" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="36436" time="0" location="C:\Users\CCrowe\.ivy2\cache\org.joda\joda-convert\srcs\joda-convert-1.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/joda/joda-convert/1.6/joda-convert-1.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-logging" name="commons-logging">
+			<revision name="1.1.1" status="release" pubdate="20071126142410" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/logging" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4254" time="0" location="C:\Users\CCrowe\.ivy2\cache\commons-logging\commons-logging\ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.pom"/>
+				<caller organisation="default" name="simpleexcelapplication$sources_2.11" conf="compile, runtime" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="1.0.3"/>
+				<artifacts>
+					<artifact name="commons-logging" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="74976" time="0" location="C:\Users\CCrowe\.ivy2\cache\commons-logging\commons-logging\srcs\commons-logging-1.1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="joda-time" name="joda-time">
+			<revision name="2.3" status="release" pubdate="20130816123125" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.joda.org/joda-time/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6572" time="0" location="C:\Users\CCrowe\.ivy2\cache\joda-time\joda-time\ivy-2.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/joda-time/joda-time/2.3/joda-time-2.3.pom"/>
+				<caller organisation="default" name="simpleexcelapplication$sources_2.11" conf="compile, runtime" rev="2.3" rev-constraint-default="2.3" rev-constraint-dynamic="2.3" callerrev="1.0.3"/>
+				<artifacts>
+					<artifact name="joda-time" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="718287" time="0" location="C:\Users\CCrowe\.ivy2\cache\joda-time\joda-time\srcs\joda-time-2.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/joda-time/joda-time/2.3/joda-time-2.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.poi" name="poi-ooxml">
+			<revision name="3.9" status="release" pubdate="20121206092104" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://poi.apache.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="1">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3005" time="0" location="C:\Users\CCrowe\.ivy2\cache\org.apache.poi\poi-ooxml\ivy-3.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/poi/poi-ooxml/3.9/poi-ooxml-3.9.pom"/>
+				<caller organisation="default" name="simpleexcelapplication$sources_2.11" conf="compile, runtime" rev="3.9" rev-constraint-default="3.9" rev-constraint-dynamic="3.9" callerrev="1.0.3"/>
+				<artifacts>
+					<artifact name="poi-ooxml" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="691429" time="0" location="C:\Users\CCrowe\.ivy2\cache\org.apache.poi\poi-ooxml\srcs\poi-ooxml-3.9-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/poi/poi-ooxml/3.9/poi-ooxml-3.9-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="dom4j" name="dom4j">
+			<revision name="1.6.1" status="release" pubdate="20060210063318" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://dom4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<metadata-artifact status="no" details="" size="3895" time="0" location="C:\Users\CCrowe\.ivy2\cache\dom4j\dom4j\ivy-1.6.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/dom4j/dom4j/1.6.1/dom4j-1.6.1.pom"/>
+				<caller organisation="default" name="simpleexcelapplication$sources_2.11" conf="compile, runtime" rev="1.6.1" rev-constraint-default="1.6.1" rev-constraint-dynamic="1.6.1" callerrev="1.0.3"/>
+				<artifacts>
+					<artifact name="dom4j" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="432186" time="0" location="C:\Users\CCrowe\.ivy2\cache\dom4j\dom4j\srcs\dom4j-1.6.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/dom4j/dom4j/1.6.1/dom4j-1.6.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.poi" name="poi">
+			<revision name="3.9" status="release" pubdate="20121206091720" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://poi.apache.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2988" time="0" location="C:\Users\CCrowe\.ivy2\cache\org.apache.poi\poi\ivy-3.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/poi/poi/3.9/poi-3.9.pom"/>
+				<caller organisation="default" name="simpleexcelapplication$sources_2.11" conf="compile, runtime" rev="3.9" rev-constraint-default="3.9" rev-constraint-dynamic="3.9" callerrev="1.0.3"/>
+				<artifacts>
+					<artifact name="poi" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1783426" time="0" location="C:\Users\CCrowe\.ivy2\cache\org.apache.poi\poi\srcs\poi-3.9-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/poi/poi/3.9/poi-3.9-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-codec" name="commons-codec">
+			<revision name="1.5" status="release" pubdate="20110324203406" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/codec/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6608" time="0" location="C:\Users\CCrowe\.ivy2\cache\commons-codec\commons-codec\ivy-1.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.5/commons-codec-1.5.pom"/>
+				<caller organisation="default" name="simpleexcelapplication$sources_2.11" conf="compile, runtime" rev="1.5" rev-constraint-default="1.5" rev-constraint-dynamic="1.5" callerrev="1.0.3"/>
+				<artifacts>
+					<artifact name="commons-codec" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="102254" time="0" location="C:\Users\CCrowe\.ivy2\cache\commons-codec\commons-codec\srcs\commons-codec-1.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.5/commons-codec-1.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="xml-apis" name="xml-apis">
+			<revision name="1.0.b2" status="release" pubdate="20070208183046" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://xml.apache.org/commons/#external" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="0">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3079" time="0" location="C:\Users\CCrowe\.ivy2\cache\xml-apis\xml-apis\ivy-1.0.b2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.pom"/>
+				<caller organisation="default" name="simpleexcelapplication$sources_2.11" conf="compile, runtime" rev="1.0.b2" rev-constraint-default="1.0.b2" rev-constraint-dynamic="1.0.b2" callerrev="1.0.3"/>
+				<artifacts>
+					<artifact name="xml-apis" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="407051" time="0" location="C:\Users\CCrowe\.ivy2\cache\xml-apis\xml-apis\srcs\xml-apis-1.0.b2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
