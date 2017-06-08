@@ -14,14 +14,10 @@ import org.apache.poi.ss.usermodel.WorkbookFactory
 import org.apache.poi.ss.util.WorkbookUtil
 import org.apache.poi.xssf.usermodel.{XSSFCell, XSSFRow, XSSFWorkbook}
 import org.joda.time.LocalDate
+import com.norbitltd.spoiwo.model.Column;
 
 object ScalaInExcel {
-  def main(args: Array[String]) {
-    var wb = WorkbookFactory.create(new File("workbook.xlsx"));
-    wb = WorkbookFactory.create(new FileInputStream("workbook.xlsx"));
-    var pkg = OPCPackage.open(new File("workbook.xlsx"))
-    wb = new XSSFWorkbook(pkg);
-    pkg.close();
+  def main(args: Array[String]): Unit = {
 
   }
 }

@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68a2125b-22eb-4961-887f-b77145b18af0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/CellAlignment.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workbook.xlsx" afterPath="$PROJECT_DIR$/workbook.xlsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/ScalaInExcel.scala" afterPath="$PROJECT_DIR$/src/main/scala/ScalaInExcel.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/Workbook.scala" afterPath="$PROJECT_DIR$/src/main/scala/Workbook.scala" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,14 +26,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ScalaInExcel.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ScalaInExcel.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaInExcel.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="23" selection-end-column="16" />
+            <state relative-caret-position="420">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#44#100#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CellAlignment.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/CellAlignment.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="22" column="20" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -51,11 +63,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Workbook.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Workbook.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Workbook.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" column="63" lean-forward="true" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
+            <state relative-caret-position="399">
+              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
                 <element signature="e#0#56#0" expanded="true" />
               </folding>
@@ -102,6 +114,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Hello</find>
+      <find>Column</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -120,8 +133,9 @@
         <option value="$PROJECT_DIR$/src/main/scala/Dates.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Sheets.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/CellManipulation.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/ScalaInExcel.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Workbook.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ScalaInExcel.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/CellAlignment.scala" />
       </list>
     </option>
   </component>
@@ -730,7 +744,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1496925440542</updated>
-      <workItem from="1496925443082" duration="4794000" />
+      <workItem from="1496925443082" duration="5352000" />
     </task>
     <task id="LOCAL-00001" summary="Added method: Manipulates sheet cells">
       <created>1496928538933</created>
@@ -753,11 +767,18 @@
       <option name="project" value="LOCAL" />
       <updated>1496929961567</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added method: File control level for workbooks.  This is a new way of opening/closing workbooks">
+      <created>1496930303336</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1496930303336</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4794000" />
+    <option name="totallyTimeSpent" value="5352000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4809" y="-9" width="2418" height="1318" extended-state="6" />
@@ -805,7 +826,8 @@
     <MESSAGE value="Added method: Manipulates sheet cells" />
     <MESSAGE value="Separating functionality into general objects" />
     <MESSAGE value="Added another cell manipulation function." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added another cell manipulation function." />
+    <MESSAGE value="Added method: File control level for workbooks.  This is a new way of opening/closing workbooks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added method: File control level for workbooks.  This is a new way of opening/closing workbooks" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -854,23 +876,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaInExcel.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Workbook.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="23" selection-end-column="16" />
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#44#100#0" expanded="true" />
+            <element signature="e#0#56#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Workbook.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/CellAlignment.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="63" lean-forward="true" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
+        <state relative-caret-position="462">
+          <caret line="22" column="20" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
           <folding>
-            <element signature="e#0#56#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ScalaInExcel.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#44#100#0" expanded="true" />
           </folding>
         </state>
       </provider>
